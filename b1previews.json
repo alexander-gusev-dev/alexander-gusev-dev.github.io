@@ -1,22 +1,14 @@
 {
-    "expires": 120000,
+    "expires": 10000,
     "sections": [{
             "title": "Popular VOD",
             "tiles": [{
                 "title": "Audi",
                 "subtitle": "Audi e-tron GT Sportback",
                 "image_ratio": "16by9",
-                "image_url": "./assets/b1/previews/01.jpg",
-                "action_data": "{\"videoIdx\": 1}",
-                "is_playable": true
-            },
-            {
-                "title": "Audi",
-                "subtitle": "Audi e-tron GT Sportback",
-                "image_ratio": "16by9",
                 "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/01.jpg",
-                "action_data": "{\"videoIdx\": 1}",
-                "is_playable": true
+                "action_data": "{\"pictureIdx\": 1}",
+                "is_playable": false
             }]
         },
         {
