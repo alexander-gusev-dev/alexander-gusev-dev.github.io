@@ -1,53 +1,47 @@
 {
     "expires": 10000,
     "sections": [{
-            "title": "Popular VOD",
+            "title": "Popular",
             "tiles": [{
-                "title": "Audi",
-                "subtitle": "Audi e-tron GT Sportback",
-                "image_ratio": "16by9",
-                "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/1.jpg",
-                "action_data": "{\"pictureIdx\": 1}",
-                "is_playable": false
-            }]
+                    "title": "Audi",
+                    "subtitle": "Audi e-tron GT Sportback",
+                    "image_ratio": "16by9",
+                    "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/1.jpg",
+                    "action_data": "{\"pictureIdx\": 1}",
+                    "is_playable": false
+                },
+                {
+                    "title": "Adidas",
+                    "subtitle": "Just Do It.",
+                    "image_ratio": "16by9",
+                    "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/2.jpg",
+                    "action_data": "{\"pictureIdx\": 2}",
+                    "is_playable": false
+                }
+            ]
         },
         {
-            "title": "VOD recommended",
+            "title": "Recomended videos",
             "tiles": [{
-                    "title": "Living 1",
-                    "image_ratio": "1by1",
-                    "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/2.jpg",
-                    "action_data": "{\"videoIdx\": 2}",
+                    "subtitle": "Der neue Audi e-tron GT",
+                    "image_ratio": "16by9",
+                    "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/3.jpg",
+                    "action_data": "{\"videoIdx\": 3}",
                     "is_playable": true
                 },
                 {
-                    "title": "Animal",
-                    "image_ratio": "16by9",
-                    "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/3.jpg",
-                    "action_data": "{\"pictureIdx\": 5}",
-                    "is_playable": false
-                },
-                {
-                    "title": "Cooking",
-                    "subtitle": "Season 1",
+                    "subtitle": "#FutureIsAnAttitude News",
                     "image_ratio": "16by9",
                     "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/4.jpg",
-                    "action_data": "{\"pictureIdx\": 3}",
-                    "is_playable": false
+                    "action_data": "{\"pictureIdx\": 4}",
+                    "is_playable": true
                 },
                 {
-                    "title": "Party",
+                    "subtitle": "Komfortabel die Kurve kriegen",
                     "image_ratio": "16by9",
                     "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/5.jpg",
-                    "action_data": "{\"pictureIdx\": 4}",
-                    "is_playable": false
-                },
-                {
-                    "title": "Party",
-                    "image_ratio": "16by9",
-                    "image_url": "http://developer.samsung.com/onlinedocs/tv/Preview/4.jpg",
-                    "action_data": "{\"pictureIdx\": 4}",
-                    "is_playable": false
+                    "action_data": "{\"pictureIdx\": 5}",
+                    "is_playable": true
                 }
             ]
         }
