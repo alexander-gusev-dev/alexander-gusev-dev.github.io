@@ -7,7 +7,7 @@
                     "subtitle": "Audi e-tron GT Sportback",
                     "image_ratio": "16by9",
                     "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/1.jpg",
-                    "action_data": "{\"pictureIdx\": 1}",
+                    "action_data": "{\"campaignId\": 1, \"url\": \"/brand/audi/landing/1\"}",
                     "is_playable": false
                 },
                 {
@@ -15,7 +15,7 @@
                     "subtitle": "Just Do It.",
                     "image_ratio": "16by9",
                     "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/2.jpg",
-                    "action_data": "{\"pictureIdx\": 2}",
+                    "action_data": "{\"campaignId\": 2, \"url\": \"/brand/adidas/landing/1\"}",
                     "is_playable": false
                 }
             ]
@@ -26,21 +26,21 @@
                     "subtitle": "Der neue Audi e-tron GT",
                     "image_ratio": "16by9",
                     "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/3.jpg",
-                    "action_data": "{\"videoIdx\": 3}",
+                    "action_data": "{\"videoId\": 3, \"url\": \"/brand/audo/video/1\"}",
                     "is_playable": true
                 },
                 {
                     "subtitle": "#FutureIsAnAttitude News",
                     "image_ratio": "16by9",
                     "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/4.jpg",
-                    "action_data": "{\"pictureIdx\": 4}",
+                    "action_data": "{\"videoId\": 4, \"url\": \"/brand/audo/video/2\"}",
                     "is_playable": true
                 },
                 {
                     "subtitle": "Komfortabel die Kurve kriegen",
                     "image_ratio": "16by9",
                     "image_url": "http://alexander-gusev-dev.github.io/assets/b1/previews/5.jpg",
-                    "action_data": "{\"pictureIdx\": 5}",
+                    "action_data": "{\"videoId\": 5, \"url\": \"/brand/audo/video/3\"}",
                     "is_playable": true
                 }
             ]
