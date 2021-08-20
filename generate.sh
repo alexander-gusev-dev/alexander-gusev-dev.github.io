@@ -10,19 +10,20 @@ do
     # ffmpeg -loglevel warning -y -i $file -ss 00:00:00 -t 00:00:05 -aspect 16:9 -s 512x288 $OUT/$filename.mp4
     ffmpeg \
         -y \
+        -loglevel warning \
         -i $file \
         -vcodec libwebp \
-        -filter:v fps=fps=20 \
+        -filter:v fps=fps=12 \
         -lossless 0 \
         -compression_level 3 \
-        -q:v 70 \
+        -q:v 60 \
         -loop 0 \
         -preset picture \
         -an \
         -vsync 0 \
         -s 512:288 \
-        -ss 00:00:00 \
-        -t 00:00:05 \
+        -ss 00:00:05 \
+        -t 00:00:10 \
         $OUT/$filename.webp
 done
 
